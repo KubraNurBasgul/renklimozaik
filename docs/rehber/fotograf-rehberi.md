@@ -21,7 +21,7 @@ Tepsi, saksı gibi ürünlerde "bütün" kareyi üstten, "kullanımda" kareyi ma
 En sık iade sebebi "rengi farklı çıktı". Bunu önlemek için:
 - Ürünü pencere ışığında, ekranda gerçeğe yakın görününceye kadar kontrol edin. Aynı ürünün fotoğrafını Instagram'daki hâliyle de karşılaştırın.
 - Fotoğrafı düzenlerken yalnızca parlaklığı biraz artırın. Doygunluğu (canlılık) artırmayın, ürün gerçekte olduğundan canlı görünür.
-- Ürün açıklamasına "renk geçişleri fotoğraftan çok az farklı olabilir" notu zaten eklendi.
+- Ürün sayfasında "el işçiliği ve siparişe özel üretim nedeniyle görselden ufak tefek farklılıklar olabilir" uyarısı zaten yer alıyor.
 
 ## Dosya
 - Fotoğrafları **dik (portre) ve karesel** çekin; Shopify ikisini de iyi gösterir. En az telefonun normal çözünürlüğünde, kırpmadan yükleyin.

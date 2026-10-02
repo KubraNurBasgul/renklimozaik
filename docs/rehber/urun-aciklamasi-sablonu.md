@@ -11,7 +11,7 @@ Her ürün sayfasında aynı sırayı kullanın; müşteri aradığını hemen b
 > Asma / kullanım: arkasında askı var
 > Bakım: nemli bezle silin, aşındırıcı temizleyici kullanmayın
 >
-> Her mozaik elde yapılır; sizinkinin renk geçişleri fotoğraftan çok az farklı olabilir.
+> Ürünlerimiz el işçiliğiyle ve siparişe özel üretildiği için görseldekinden ufak tefek farklılıklar gösterebilir.
 
 ## Nasıl yazılır
 - Kısa tanım bir cümle: ne olduğu, hangi renkler ağırlıkta, ne için uygun.

@@ -1,0 +1,26 @@
+/* Renkli Mozaik by Arzu Arslan: marka katmanı. Dawn'ın üstüne biner; sezon renkleri en altta. */
+@font-face{font-family:"Cormorant Garamond";font-weight:600;font-style:normal;font-display:swap;src:url("cormorant-garamond-600.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:400;font-style:normal;font-display:swap;src:url("inter-400.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:600;font-style:normal;font-display:swap;src:url("inter-600.woff2") format("woff2")}
+
+:root{
+  --font-heading-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --font-heading-style:normal;
+  --font-heading-weight:600;
+  --font-body-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-body-style:normal;
+  --font-body-weight:400;
+  --font-body-weight-bold:600;
+  --rm-zemin:#f5efe4; --rm-murekkep:#231c19; --rm-soluk:#6a5d52; --rm-derz:#ddd2c0;
+  --rm-altin:#b98a2f; --rm-terrakota:#a24630; --rm-turkuaz:#1d5f5c; --rm-kobalt:#27407a;
+}
+h1,h2,h3,h4,h5,.h0,.h1,.h2,.h3,.h4,.h5{letter-spacing:.01em;font-weight:600}
+.h0,.h1{line-height:1.02}
+/* Menü, buton ve etiketler: küçük, geniş harf aralıklı büyük harf */
+.button,.header__menu-item,.header__active-menu-item,.menu-drawer__menu-item,.footer-block__heading,.badge{
+  text-transform:uppercase;letter-spacing:.14em;font-size:1.2rem}
+.header__menu-item span,.header__inline-menu a{letter-spacing:.14em}
+.header__heading-logo{height:auto;max-height:56px;width:auto}
+.card-wrapper .card__heading{font-family:var(--font-heading-family);font-size:2rem}
+.price{letter-spacing:.04em}
+@media (min-width:750px){.header__heading-logo{max-height:64px}}

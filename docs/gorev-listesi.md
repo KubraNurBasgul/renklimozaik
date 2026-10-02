@@ -16,6 +16,12 @@ Sırayla, tek tek ilerliyoruz. Her görev bitince onay alınır, sonra bir sonra
 - Paketleme iki türlü: stand satışı ve kargo (kargo ambalajı kırılmaya dayanıklı).
 - Fiyat modele göre belirlenir; her ürün sayfasında fiyat yazar, özel sipariş için "teklif iste" formu kullanılır.
 
+## Durum (2 Ekim 2026)
+- Repo: KubraNurBasgul/renklimozaik, `yeni-tasarim` dalı. Shopify teması bu dala bağlı (önizleme, yayınlanmadı).
+- Tema: Dawn + marka katmanı (`assets/renkli-mozaik.css`): fildişi zemin, Cormorant Garamond ve Inter, yeni renk şemaları, logo, Türkçe ana sayfa taslağı.
+- Sayfa metinleri `docs/icerik/` içinde: Hikâyem (Arzu Hanım'ın kendi metni), Özel sipariş. Shopify'da Sayfalar bölümünden oluşturulur.
+- Not: Shopify temayı panelden düzenlerseniz değişiklik GitHub'a kendiliğinden geri yazılır; her seferinde önce depoyu güncelleyin (Claude bunu yapar).
+
 ## Faz 1. Marka temeli
 5. ☐ Renk, yazı tipi ve ton onayı (bu tasarım sistemi).
 6. ☐ Basit logo: şimdilik kelime logo, istenirse sonra çizim.

@@ -2,62 +2,62 @@
   "current": "Dawn",
   "presets": {
     "Dawn": {
-      "logo_width": 90,
+      "logo_width": 220,
       "customer_account_menu": "customer-account-main-menu",
       "color_schemes": {
         "scheme-1": {
           "settings": {
-            "background": "#FFFFFF",
+            "background": "#f5efe4",
             "background_gradient": "",
-            "text": "#121212",
-            "button": "#121212",
-            "button_label": "#FFFFFF",
-            "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "text": "#231c19",
+            "button": "#231c19",
+            "button_label": "#f5efe4",
+            "secondary_button_label": "#231c19",
+            "shadow": "#231c19"
           }
         },
         "scheme-2": {
           "settings": {
-            "background": "#F3F3F3",
+            "background": "#ebe2d1",
             "background_gradient": "",
-            "text": "#121212",
-            "button": "#121212",
-            "button_label": "#F3F3F3",
-            "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "text": "#231c19",
+            "button": "#a24630",
+            "button_label": "#f5efe4",
+            "secondary_button_label": "#231c19",
+            "shadow": "#231c19"
           }
         },
         "scheme-3": {
           "settings": {
-            "background": "#242833",
+            "background": "#231c19",
             "background_gradient": "",
-            "text": "#FFFFFF",
-            "button": "#FFFFFF",
-            "button_label": "#000000",
-            "secondary_button_label": "#FFFFFF",
-            "shadow": "#121212"
+            "text": "#f5efe4",
+            "button": "#b98a2f",
+            "button_label": "#231c19",
+            "secondary_button_label": "#f5efe4",
+            "shadow": "#f5efe4"
           }
         },
         "scheme-4": {
           "settings": {
-            "background": "#121212",
+            "background": "#b98a2f",
             "background_gradient": "",
-            "text": "#FFFFFF",
-            "button": "#FFFFFF",
-            "button_label": "#121212",
-            "secondary_button_label": "#FFFFFF",
-            "shadow": "#121212"
+            "text": "#231c19",
+            "button": "#231c19",
+            "button_label": "#f5efe4",
+            "secondary_button_label": "#231c19",
+            "shadow": "#231c19"
           }
         },
         "scheme-5": {
           "settings": {
-            "background": "#334FB4",
+            "background": "#a24630",
             "background_gradient": "",
-            "text": "#FFFFFF",
-            "button": "#FFFFFF",
-            "button_label": "#334FB4",
-            "secondary_button_label": "#FFFFFF",
-            "shadow": "#121212"
+            "text": "#f5efe4",
+            "button": "#f5efe4",
+            "button_label": "#231c19",
+            "secondary_button_label": "#f5efe4",
+            "shadow": "#f5efe4"
           }
         }
       },
@@ -73,7 +73,7 @@
       "animations_hover_elements": "none",
       "buttons_border_thickness": 1,
       "buttons_border_opacity": 100,
-      "buttons_radius": 0,
+      "buttons_radius": 2,
       "buttons_shadow_opacity": 0,
       "buttons_shadow_horizontal_offset": 0,
       "buttons_shadow_vertical_offset": 4,
@@ -87,7 +87,7 @@
       "variant_pills_shadow_blur": 5,
       "inputs_border_thickness": 1,
       "inputs_border_opacity": 55,
-      "inputs_radius": 0,
+      "inputs_radius": 2,
       "inputs_shadow_opacity": 0,
       "inputs_shadow_horizontal_offset": 0,
       "inputs_shadow_vertical_offset": 4,
@@ -98,7 +98,7 @@
       "card_color_scheme": "scheme-2",
       "card_border_thickness": 0,
       "card_border_opacity": 10,
-      "card_corner_radius": 0,
+      "card_corner_radius": 4,
       "card_shadow_opacity": 0,
       "card_shadow_horizontal_offset": 0,
       "card_shadow_vertical_offset": 4,
@@ -109,7 +109,7 @@
       "collection_card_color_scheme": "scheme-2",
       "collection_card_border_thickness": 0,
       "collection_card_border_opacity": 10,
-      "collection_card_corner_radius": 0,
+      "collection_card_corner_radius": 4,
       "collection_card_shadow_opacity": 0,
       "collection_card_shadow_horizontal_offset": 0,
       "collection_card_shadow_vertical_offset": 4,
@@ -127,14 +127,14 @@
       "blog_card_shadow_blur": 5,
       "text_boxes_border_thickness": 0,
       "text_boxes_border_opacity": 10,
-      "text_boxes_radius": 0,
+      "text_boxes_radius": 4,
       "text_boxes_shadow_opacity": 0,
       "text_boxes_shadow_horizontal_offset": 0,
       "text_boxes_shadow_vertical_offset": 4,
       "text_boxes_shadow_blur": 5,
       "media_border_thickness": 1,
       "media_border_opacity": 5,
-      "media_radius": 0,
+      "media_radius": 4,
       "media_shadow_opacity": 0,
       "media_shadow_horizontal_offset": 0,
       "media_shadow_vertical_offset": 4,
@@ -156,13 +156,13 @@
       "badge_corner_radius": 40,
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
-      "brand_headline": "",
-      "brand_description": "<p></p>",
+      "brand_headline": "Renkli Mozaik by Arzu Arslan",
+      "brand_description": "<p>Elde yapılan mozaik tasarımlar. Her parça tek tek, sabırla ve özenle hazırlanır.</p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
       "social_pinterest_link": "",
-      "social_instagram_link": "",
+      "social_instagram_link": "https://www.instagram.com/renklimozaik",
       "social_tiktok_link": "",
       "social_tumblr_link": "",
       "social_snapchat_link": "",

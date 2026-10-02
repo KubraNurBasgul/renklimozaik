@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title"
         },
@@ -39,18 +32,45 @@
         "share": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Paylaş"
+          }
+        },
+        "el_emegi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Her mozaik elde yapıldığı için renk geçişleri fotoğraftakinden çok az farklı olabilir.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "kargo": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Kargo ve paketleme",
+            "icon": "box",
+            "content": "<p>Ürünler kırılmaya karşı özenle paketlenir. Kargo ücreti ve tahmini teslim süresi ödeme adımında gösterilir.</p>",
+            "page": ""
+          }
+        },
+        "iade": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "İade ve değişim",
+            "icon": "return",
+            "content": "<p>Standart ürünlerde yasal iade hakları geçerlidir. Özel siparişler size özel hazırlandığı için iade ve değişim kapsamı dışındadır; ürün sayfasında \"Özel sipariş\" yazıyorsa bu kural geçerlidir.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
+        "el_emegi",
+        "kargo",
+        "iade",
         "share"
       ],
       "settings": {

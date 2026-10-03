@@ -66,3 +66,11 @@ Başlıklarda **Cormorant Garamond** (zarif, kitap ve galeri kataloğu hissi), m
 - Logodaki kemer sembolü ve renk dizilimi
 - "By Arzu Arslan" alt satırı (isterseniz Türkçe "Arzu Arslan imzalı" da olabilir)
 - "Sen" ya da "siz" hitabı
+
+## Güncelleme (3 Ekim 2026): resmî logo
+
+Arzu Arslan'ın seçtiği logo resmî logodur: kemer içinde renkli lale ve yapraklar, "Renkli Mozaik", "El işi mozaikler" ve "Arzu Arslan" imzası. Daha önce çizilen karo kemer logosu (`docs/marka/logo/*.svg`) yedek olarak kalır; sitede kullanılmaz.
+
+- Kaynak: `docs/marka/logo/RenkliMozaik_LOGO-arzu.svg` (içinde 1254 × 1254 piksellik bir PNG gömülü; gerçek vektör değildir). Büyük baskı için (tabela, afiş) yüksek çözünürlüklü sürüm gerekir.
+- Sitede kullanılan hazır sürümler `assets/` içinde: `rm-logo-yatay.png` (kemer + yazı, masaüstü başlık), `rm-logo-kemer.png` (telefon başlık), `rm-logo-tam.jpg` (imzalı tam logo), simgeler (`rm-favicon-48.png`, `rm-apple-touch-icon.png`, `rm-icon-512.png`).
+- Palet logodan alındı ve zemin logo zeminiyle aynı yapıldı: zemin `#f9f5ec`, metin `#3e3029`, bordo-turuncu `#b54b27`, yeşil-turkuaz `#367a73`, koyu petrol mavisi `#1b5963`, altın `#a8893c`. Sezon renkleri (yılbaşı, ilkbahar, sonbahar) değişmedi.

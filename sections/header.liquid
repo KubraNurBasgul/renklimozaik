@@ -205,7 +205,10 @@
             }}
           </div>
         {%- else -%}
-          <img src="{{ 'renkli-mozaik-logo.svg' | asset_url }}" alt="{{ shop.name | escape }}" class="header__heading-logo" width="260" height="64">
+          <picture class="rm-logo">
+            <source media="(min-width: 750px)" srcset="{{ 'rm-logo-yatay.png' | asset_url }}">
+            <img src="{{ 'rm-logo-kemer.png' | asset_url }}" alt="{{ shop.name | escape }}" class="rm-logo__img" width="46" height="50">
+          </picture>
         {%- endif -%}
       </a>
       {%- if request.page_type == 'index' -%}
@@ -248,7 +251,10 @@
             }}
           </div>
         {%- else -%}
-          <img src="{{ 'renkli-mozaik-logo.svg' | asset_url }}" alt="{{ shop.name | escape }}" class="header__heading-logo" width="260" height="64">
+          <picture class="rm-logo">
+            <source media="(min-width: 750px)" srcset="{{ 'rm-logo-yatay.png' | asset_url }}">
+            <img src="{{ 'rm-logo-kemer.png' | asset_url }}" alt="{{ shop.name | escape }}" class="rm-logo__img" width="46" height="50">
+          </picture>
         {%- endif -%}
       </a>
       {%- if request.page_type == 'index' -%}

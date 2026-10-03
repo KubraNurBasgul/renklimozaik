@@ -254,7 +254,7 @@
         "name": "Ad",
         "email": "E-posta",
         "phone": "Telefon numarası",
-        "comment": "Yorum",
+        "comment": "Mesajınız",
         "send": "Gönder",
         "post_success": "Bizimle iletişime geçtiğiniz için teşekkür ederiz. Mümkün olan en kısa sürede size dönüş yapacağız.",
         "error_heading": "Lütfen aşağıdakileri düzenleyin:",

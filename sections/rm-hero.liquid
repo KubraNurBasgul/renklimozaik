@@ -1,0 +1,55 @@
+{%- comment -%} Renkli Mozaik: metin + görsel bölümü. Görsel seçilmezse fallback_asset dosyası gösterilir. {%- endcomment -%}
+<div class="rm-hero color-{{ section.settings.color_scheme }} gradient{% if section.settings.reverse %} rm-hero--reverse{% endif %}">
+  <div class="rm-hero__inner page-width">
+    <div class="rm-hero__text">
+      {%- if section.settings.caption != blank -%}
+        <p class="rm-hero__caption">{{ section.settings.caption | escape }}</p>
+      {%- endif -%}
+      <h2 class="rm-hero__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+      {%- if section.settings.text != blank -%}
+        <div class="rm-hero__body rte">{{ section.settings.text }}</div>
+      {%- endif -%}
+      <div class="rm-hero__buttons">
+        {%- if section.settings.button_label != blank -%}
+          <a href="{{ section.settings.button_link }}" class="button button--primary">{{ section.settings.button_label | escape }}</a>
+        {%- endif -%}
+        {%- if section.settings.button_label_2 != blank -%}
+          <a href="{{ section.settings.button_link_2 }}" class="button button--secondary">{{ section.settings.button_label_2 | escape }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="rm-hero__media">
+      {%- if section.settings.image != blank -%}
+        {%- assign rm_alt = section.settings.image.alt | default: section.settings.heading -%}
+        {{ section.settings.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '500, 800, 1100, 1400', sizes: '(min-width: 750px) 50vw, 100vw', class: 'rm-hero__img', alt: rm_alt }}
+      {%- elsif section.settings.fallback_asset != blank -%}
+        <img src="{{ section.settings.fallback_asset | asset_url }}" alt="{{ section.settings.image_alt | escape }}" class="rm-hero__img" loading="lazy" width="1080" height="1080">
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Renkli Mozaik: Metin ve görsel",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "text", "id": "caption", "label": "Küçük üst yazı", "default": "" },
+    { "type": "text", "id": "heading", "label": "Başlık", "default": "Elde yapılan mozaik, sanat gibi." },
+    { "type": "select", "id": "heading_size", "label": "Başlık boyutu", "default": "h0",
+      "options": [ { "value": "h1", "label": "Orta" }, { "value": "h0", "label": "Büyük" } ] },
+    { "type": "richtext", "id": "text", "label": "Metin", "default": "<p>Her parça tek tek, sabırla ve özenle hazırlanır.</p>" },
+    { "type": "text", "id": "button_label", "label": "Birinci buton yazısı", "default": "Koleksiyonu gör" },
+    { "type": "url", "id": "button_link", "label": "Birinci buton bağlantısı" },
+    { "type": "text", "id": "button_label_2", "label": "İkinci buton yazısı" },
+    { "type": "url", "id": "button_link_2", "label": "İkinci buton bağlantısı" },
+    { "type": "image_picker", "id": "image", "label": "Görsel (seçilmezse hazır görsel gösterilir)" },
+    { "type": "text", "id": "fallback_asset", "label": "Hazır görsel dosya adı", "default": "rm-hero.jpg" },
+    { "type": "text", "id": "image_alt", "label": "Hazır görselin açıklaması", "default": "" },
+    { "type": "checkbox", "id": "reverse", "label": "Görsel solda olsun", "default": false },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Renk şeması", "default": "scheme-2" }
+  ],
+  "presets": [ { "name": "Renkli Mozaik: Metin ve görsel" } ]
+}
+{% endschema %}

@@ -1,45 +1,20 @@
 {
   "sections": {
     "hero": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Elde yapılan mozaik, sanat gibi.",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Renkli Mozaik by Arzu Arslan: her parça tek tek, sabırla ve özenle hazırlanır. Her mozaiğin renk geçişleri biraz farklıdır; bu da ona kendi karakterini verir.</p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Koleksiyonu gör",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false,
-            "button_label_2": "Özel sipariş",
-            "button_link_2": "shopify://pages/ozel-siparis",
-            "button_style_secondary_2": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+      "type": "rm-hero",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 72,
-        "padding_bottom": 72
+        "caption": "El işi mozaikler",
+        "heading": "Elde yapılan mozaik, sanat gibi.",
+        "heading_size": "h0",
+        "text": "<p>Her parça tek tek, sabırla ve özenle hazırlanır. Her mozaiğin renk geçişleri biraz farklıdır; bu da ona kendi karakterini verir.</p>",
+        "button_label": "Koleksiyonu gör",
+        "button_link": "shopify://collections/all",
+        "button_label_2": "Özel sipariş",
+        "button_link_2": "shopify://pages/ozel-siparis",
+        "fallback_asset": "rm-hero.jpg",
+        "image_alt": "Beyaz çerçeveli, mavi ortancalı el yapımı mozaik tabak",
+        "reverse": false,
+        "color_scheme": "scheme-2"
       }
     },
     "featured_collection": {
@@ -70,42 +45,18 @@
       }
     },
     "ozel": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Size özel bir mozaik",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Evinize, hediyenize ya da mekânınıza özel boyut ve renkte sipariş verebilirsiniz. Ölçüyü, renkleri ve fikrinizi yazın; size bir teklif hazırlayalım.</p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Özel sipariş iste",
-            "button_link": "shopify://pages/ozel-siparis",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+      "type": "rm-hero",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 56,
-        "padding_bottom": 56
+        "caption": "Özel sipariş",
+        "heading": "Size özel bir mozaik",
+        "heading_size": "h1",
+        "text": "<p>Evinize, hediyenize ya da mekânınıza özel boyut ve renkte sipariş verebilirsiniz. Ölçüyü, renkleri ve fikrinizi yazın; size bir teklif hazırlayalım.</p>",
+        "button_label": "Özel sipariş iste",
+        "button_link": "shopify://pages/ozel-siparis",
+        "fallback_asset": "rm-ozel.jpg",
+        "image_alt": "Raflarda sergilenen çeşitli el yapımı mozaik ürünler",
+        "reverse": true,
+        "color_scheme": "scheme-3"
       }
     },
     "hikaye": {
@@ -146,10 +97,50 @@
         "padding_top": 56,
         "padding_bottom": 56
       }
+    },
+    "vitrin": {
+      "type": "rm-vitrin",
+      "blocks": {
+        "k1": {
+          "type": "kart",
+          "settings": {
+            "title": "Tabaklar",
+            "link": "shopify://collections/tabaklar",
+            "fallback_asset": "rm-kart-tabaklar.jpg"
+          }
+        },
+        "k2": {
+          "type": "kart",
+          "settings": {
+            "title": "Panolar",
+            "link": "shopify://collections/panolar",
+            "fallback_asset": "rm-kart-panolar.jpg"
+          }
+        },
+        "k3": {
+          "type": "kart",
+          "settings": {
+            "title": "Altlıklar ve kartvizitlikler",
+            "link": "shopify://collections/altliklar",
+            "fallback_asset": "rm-kart-altliklar.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "k1",
+        "k2",
+        "k3"
+      ],
+      "settings": {
+        "heading": "Koleksiyonlar",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1"
+      }
     }
   },
   "order": [
     "hero",
+    "vitrin",
     "featured_collection",
     "ozel",
     "hikaye"

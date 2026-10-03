@@ -20,6 +20,8 @@ Sırayla, tek tek ilerliyoruz. Her görev bitince onay alınır, sonra bir sonra
 - Repo: KubraNurBasgul/renklimozaik, `yeni-tasarim` dalı. Shopify teması bu dala bağlı (önizleme, yayınlanmadı).
 - Tema: Dawn + marka katmanı (`assets/renkli-mozaik.css`): fildişi zemin, Cormorant Garamond ve Inter, yeni renk şemaları, logo, Türkçe ana sayfa taslağı.
 - Sayfa metinleri `docs/icerik/` içinde: Hikâyem (Arzu Hanım'ın kendi metni), Özel sipariş. Shopify'da Sayfalar bölümünden oluşturulur.
+- Ana sayfa (3 Ekim): giriş bölümü (ortancalı tabak), 3 koleksiyon kartı (Tabaklar, Panolar, Altlıklar; adresleri `tabaklar`, `panolar`, `altliklar` olmalı), öne çıkanlar, özel sipariş, hikâye özeti. Görseller tema düzenleyicisinden değiştirilebilir.
+- Görseller tasarım üretimi sayılır; her ürün biraz farklı olabilir. Ürün sayfasında "görselden ufak tefek farklılıklar" uyarısı var.
 - Not: Shopify temayı panelden düzenlerseniz değişiklik GitHub'a kendiliğinden geri yazılır; her seferinde önce depoyu güncelleyin (Claude bunu yapar).
 
 ## Faz 1. Marka temeli

@@ -5,6 +5,10 @@ El emeği mozaik markasının Shopify sitesi. Hedef adres: www.renklimozaik.com,
 ## Klasörler
 - Kök dizin: Shopify teması (Dawn temelli, MIT lisanslı). Shopify'ın GitHub bağlantısı bu dizini okur.
 - `docs/gorev-listesi.md`: görevler ve alınan kararlar.
+- `docs/yasal/`: satış sözleşmesi, iade, teslimat, KVKK taslakları (avukat kontrolü gerekir).
+- `docs/magaza/`: Shopify mağaza ayar listesi.
+- `docs/icerik/`: sayfa metinleri, arama motoru ve Google işletme metinleri.
+- `araclar/urun_csv.py`: ürün tablosunu Shopify içe aktarma dosyasına çevirir.
 - `docs/marka/`: marka kılavuzu, renk ve yazı tipi bilgileri (`tokens.json`), logolar (`logo/`, SVG).
 
 ## Çalışma düzeni

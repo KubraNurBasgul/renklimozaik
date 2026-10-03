@@ -16,6 +16,12 @@ Sırayla, tek tek ilerliyoruz. Her görev bitince onay alınır, sonra bir sonra
 - Paketleme iki türlü: stand satışı ve kargo (kargo ambalajı kırılmaya dayanıklı).
 - Fiyat modele göre belirlenir; her ürün sayfasında fiyat yazar, özel sipariş için "teklif iste" formu kullanılır.
 
+## Kararlar (3 Ekim 2026)
+- Alan adı renklimozaik.com müsait; Arzu Hanım satın alıp yetki verecek.
+- Hitap: "siz".
+- Satış, site hazır olunca açılır; o zamana kadar mağaza şifreli. Fiyat ve kargo firması üzerinde çalışılıyor.
+- Beklemeden hazırlananlar: yasal metin taslakları (`docs/yasal/`), mağaza ayar listesi (`docs/magaza/`), arama motoru ve Google işletme metinleri (`docs/icerik/`), ürün tablosu (Google Sheets) ve içe aktarma aracı (`araclar/urun_csv.py`).
+
 ## Durum (2 Ekim 2026)
 - Repo: KubraNurBasgul/renklimozaik, `yeni-tasarim` dalı. Shopify teması bu dala bağlı (önizleme, yayınlanmadı).
 - Tema: Dawn + marka katmanı (`assets/renkli-mozaik.css`): fildişi zemin, Cormorant Garamond ve Inter, yeni renk şemaları, logo, Türkçe ana sayfa taslağı.

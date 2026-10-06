@@ -33,3 +33,9 @@ Karar (6 Ekim 2026): Mağaza Shopify yerine **ikas** üzerinde kurulacak. Gerek�
 - Ücretsiz deneme bitmeden mağazayı kapatın/duraklatın ki ücret çıkmasın. Deneme süresi ve iptal adımlarını Shopify panelinde (Ayarlar → Plan) kontrol edin.
 - DNS'e Shopify için girilen A ve CNAME kayıtlarını ikas'ın vereceği değerlerle değiştirin; Shopify kayıtlarıyla ikas kayıtları aynı anda durmasın.
 - Bu repodaki Shopify teması (`yeni-tasarim` dalı) arşiv olarak kalır; silinmez.
+
+## Notlar (7 Ekim 2026)
+- Hesap açıldı: renklimozaik.myikas.com. Paket: Start (ücretsiz) ile başlanıyor.
+- Start: 100 ürüne kadar, ikas Cüzdan ile %3,99 sanal POS (taksit durumu panelden doğrulanacak), özel alan adı bağlama ücretli görünüyor (899 TL, tek seferlik mi yıllık mı panelden doğrulanacak). Ücretsiz pakette yalnızca ikas'ın hazır ücretsiz temalarından biri yayınlanabilir (kaynaklara göre); diğer temalar düzenlenir ama yayınlanamaz. Panelde teyit edilecek.
+- Alan adı bağlama: ikas panelinde bir A kaydı ve iki CNAME kaydı gösterir; Shopify için girilen A (23.227.38.65) ve CNAME (shops.myshopify.com) kayıtları silinir.
+- Tasarım belirtimi: `docs/ikas/editor-tasarim.md`.

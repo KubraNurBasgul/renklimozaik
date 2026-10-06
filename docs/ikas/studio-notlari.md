@@ -17,5 +17,7 @@ Açık: Start (ücretsiz) pakette partner temasının yayınlanıp yayınlanamay
 - CLI girişi tarayıcıda OAuth ile yapar (geri çağırma adresi 127.0.0.1); bulut ortamında tarayıcı olmadığı için giriş ve canlı önizleme (yerel geliştirme sunucusu + "Bağlan") kullanıcının kendi bilgisayarında yapılmalıdır.
 - Proje Preact tabanlıdır (Next.js değil); `src/components/<Bileşen>/index.tsx`, `styles.css`, `src/global.css`. `ikas.config.json`, `types.ts` dosyaları otomatik üretilir, elle düzenlenmez.
 
-## Karar
-Önce no-code Tasarım moduyla (docs/ikas/editor-tasarim.md) kurulur. Kod modu yalnızca no-code ile yapılamayan bir bölüm için kullanılır.
+## Karar (6 Ekim 2026, güncel)
+Özel tema (Studio/Kod modu) yapılmaz. Mağazanın kendi **ücretsiz temaları** incelenir, en uygun olan seçilip onun düzenleyicisinde `docs/ikas/editor-tasarim.md` belirtimine göre özelleştirilir. Arzu Arslan ileride geliştirmek isterse özel tema yeniden konuşulur.
+
+Tema seçim ölçütleri: ana sayfada görsel + metin giriş bölümü, kare koleksiyon kartları, sade ve açık arka plan, serif başlık yazı tipine uyum, büyük ürün fotoğrafı ve galeri olan ürün sayfası, telefonda düzgün görünüm, ücretsiz pakette yayınlanabilir olması. Sektör etiketlerine göre ev dekorasyonu/mobilya (Stella), takı ve kişisel bakım (The Nile), organik ve doğal ürünler (Siva) ve aksesuar (Toros) adayları öne çıkıyor; panelde doğrulanacak.

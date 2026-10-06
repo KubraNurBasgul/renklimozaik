@@ -16,6 +16,9 @@ Sırayla, tek tek ilerliyoruz. Her görev bitince onay alınır, sonra bir sonra
 - Paketleme iki türlü: stand satışı ve kargo (kargo ambalajı kırılmaya dayanıklı).
 - Fiyat modele göre belirlenir; her ürün sayfasında fiyat yazar, özel sipariş için "teklif iste" formu kullanılır.
 
+## Platform kararı (6 Ekim 2026)
+Mağaza **ikas** üzerinde kurulacak; Shopify'dan vazgeçildi. Ayrıntı ve sıra: `docs/ikas/gecis-plani.md`. Aşağıdaki Shopify notları arşiv bilgisidir.
+
 ## Kararlar (3 Ekim 2026)
 - Alan adı renklimozaik.com müsait; Arzu Hanım satın alıp yetki verecek.
 - Hitap: "siz".

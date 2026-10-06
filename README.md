@@ -1,6 +1,6 @@
 # Renkli Mozaik by Arzu Arslan
 
-El emeği mozaik markasının Shopify sitesi. Hedef adres: www.renklimozaik.com, Instagram: @renklimozaik.
+El emeği mozaik markasının online mağazası. Platform: ikas (6 Ekim 2026 kararı; önce Shopify teması denendi, bu repo marka dosyalarını ve arşivlenmiş Shopify temasını tutar). Hedef adres: www.renklimozaik.com, Instagram: @renklimozaik.
 
 ## Klasörler
 - Kök dizin: Shopify teması (Dawn temelli, MIT lisanslı). Shopify'ın GitHub bağlantısı bu dizini okur.
